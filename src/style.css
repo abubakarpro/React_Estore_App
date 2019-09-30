@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+}
+.header{
+    
+    width: 100%;
+    height: 130px;
+}
+
+.logo{
+  
+    margin-left: 95px;
+    font-size: 30px;
+    color: brown;
+    font-family: unset;
+    display: inline-block;
+    padding: 34px;
+    float:left;
+}
+.navbar{
+    position: relative;
+    background:white;
+    overflow: hidden;
+    margin :20px 112px;
+    z-index: -1;
+}
+.item-type{
+    float: none;
+    color:gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+.navbar a:hover {
+    color: brown;
+}
+.caret{
+    font-size: 20px;
+}
+.totalQuantity{
+    margin-right: 10px;
+    font-size: 20px;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cart-btn{
+    
+    margin-right: 200px;
+    margin-top: 45px;
+    font-size: 35px;
+    display: inline-block;
+    color:blue; 
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.container{
+    margin:20px 100px;
+    
+}
+
+.item-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    flex-direction: column;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+    margin:30px;  
+  }
+  
+  .item-price {
+    color:red;
+    font-size: 22px;
+  }
+  
+  .item-card button {
+    border: none;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width:100%;
+    
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .popup {  
+    position: fixed;  
+    width: 100%;  
+    height: 100%;  
+    top: 0;  
+    left: 0px;  
+    right: 0;  
+    bottom: 0;  
+    margin: auto;  
+    background-color: rgba(0,0,0, 0.5); 
+    
+  }  
+  .popup_inner {  
+    position: absolute;  
+    left: 25%;  
+    right: 25%;  
+    top: 25%;  
+    bottom: 25%;  
+    margin: auto;  
+    border-radius: 20px;  
+    background: white;  
+    z-index: 1;
+    overflow: auto; 
+  }
+  .Close-popup-btn{
+      border: none;
+      border-radius: 20px;
+      background-color:white;
+      right:100%;
+      padding: 5px;
+    
+  }
+  .ItemInCart-list{
+      list-style: none;
+      margin:20px 20px;
+  }
+  table, th, td {
+    width:70%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  th {  
+    text-align: center;
+  }
+  table{
+      overflow: hidden;
+      margin: 15px;
+  }
+
+  .decrement-btn{
+      border: none;
+      background-color:gray;
+      color:black;
+      padding: 0px 7px;
+      font-size: 20px;
+      margin-left: 5px; 
+
+  }
+  .increment-btn{
+    border: none;
+    background-color:gray;
+    color:black;
+    padding: 0px 6px;
+    font-size: 20px;
+    margin-right: 5px;
+
+  }
+  .delete-btn{
+    border: none;
+    background-color:red;
+    color:black;
+    padding: 4px 6px;
+    font-size: 15px;
+    
+
+  }
